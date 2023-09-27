@@ -1,0 +1,18 @@
+{
+  "name": "fifthapi",
+  "version": "1.1.1",
+  "description": "file upload with mysqli database",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "author": "sujatro das",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1"
+  }
+}
